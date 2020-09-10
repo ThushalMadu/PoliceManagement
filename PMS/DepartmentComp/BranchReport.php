@@ -8,7 +8,8 @@
 </head>
 
 <body>
-    <iframe width="933" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiYzQ4ODYwZTgtYTlmYy00MzllLWI4YTMtYzNmZDY0ZDgxM2MzIiwidCI6ImE2ZWMwZjFjLTJhMzQtNDFhOS1hZDExLTIyNzVhNDg4ODQ5NyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="1024" height="1060" src="https://app.powerbi.com/view?r=eyJrIjoiM2JlZGNlYTQtZTYyMy00NTY2LThlZTktZDc0Zjg2MjBiYjExIiwidCI6ImE2ZWMwZjFjLTJhMzQtNDFhOS1hZDExLTIyNzVhNDg4ODQ5NyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
 </body>
 
 </html>
+

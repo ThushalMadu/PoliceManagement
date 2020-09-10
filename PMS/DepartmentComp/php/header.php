@@ -73,14 +73,17 @@ if (!$_SESSION['loggedin']) {
                         <a href="ViewFeedback.php"><i class="fa fa-usd "></i>View FeedBacks</a>
                     </li>
                     <li>
-                        <a href="fees.php"><i class="fa fa-usd "></i>Reports</a>
+                        <a href="fees.php"><i class="fa fa-usd "></i>Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="reportmain.php"><i class="fa fa-usd "></i>Report</a>
                     </li>
                     <li>
                         <a href="setting.php"><i class="fa fa-cogs "></i>Setting</a>
                     </li>
 
                     <li>
-                        <a href="logout.php"><i class="fa fa-power-off "></i>Logout</a>
+                        <a href="http://localhost/PoliceManagement/PMS"><i class="fa fa-power-off "></i>Logout</a>
                     </li>
 
 

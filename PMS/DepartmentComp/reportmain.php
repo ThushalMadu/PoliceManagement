@@ -45,7 +45,7 @@ include("php/header.php");
   <div id="page-inner">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="page-head-line">Dashboard
+        <h1 class="page-head-line">Report
 
         </h1>
 
@@ -58,23 +58,13 @@ include("php/header.php");
 
       <div class="row">
 
-        <div class="col-md-4">
-          <div class="main-box mb-pink">
-            <a href="piechart.php">
-              <i class="fa fa-users fa-5x"></i>
-              <h5>Fine Category Dashboard</h5>
-            </a>
-          </div>
-        </div>
-
-
 
 
         <div class="col-md-4">
           <div class="main-box mb-dull">
-            <a href="BranchReport.php">
+            <a href="brreport.php">
               <i class="fa fa-usd fa-5x"></i>
-              <h5>Branch Dashboard</h5>
+              <h5>Branch Report</h5>
             </a>
           </div>
         </div>
@@ -82,9 +72,9 @@ include("php/header.php");
 
         <div class="col-md-4">
           <div class="main-box mb-red">
-            <a href="summeryReport.php">
+            <a href="srreport.php">
               <i class="fa fa-file-text fa-5x"></i>
-              <h5>Summery Dashboard</h5>
+              <h5>Summery Report</h5>
             </a>
           </div>
         </div>
