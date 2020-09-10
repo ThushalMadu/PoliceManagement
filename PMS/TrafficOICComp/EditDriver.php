@@ -150,7 +150,7 @@ include("php/header.php");
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label" for="Old">Driver Licence No</label>
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="driverLicNo" pattern="^[a-zA-Z][0-9]{7}$" name="driverLicNo" value="<?php echo $driverLicNo; ?>" />
+                                        <input type="text" class="form-control" id="driverLicNo" maxlength="8" name="driverLicNo" value="<?php echo $driverLicNo; ?>" />
                                     </div>
                                 </div>
 
@@ -270,6 +270,11 @@ include("php/header.php");
                                     required: true,
                                     // digits: true,
                                 },
+                                driverLicNo: {
+                                    required: true,
+                                    maxlength: 8,
+                                    digits: true,
+                                },
                                 pass: {
                                     required: true,
                                 },
@@ -284,7 +289,11 @@ include("php/header.php");
                                     digits: "only Digits is Valid for Phone number",
                                     maxlength: "only valida 10 digits"
                                 },
-
+                                driverLicNo: {
+                                    required: "Please enter Driver Licence Number",
+                                    digits: "only Digits is Valid for Driver Licence Number",
+                                    maxlength: "only valida 8 digits"
+                                },
                                 first_name: {
                                     required: "Please enter First Name",
                                     digits: "Enter First Name only Characters"

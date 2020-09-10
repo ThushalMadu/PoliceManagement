@@ -34,12 +34,12 @@
                         <signupheade>Register now</signupheade>
                         <div class="errorTxt"></div>
                     </div>
-                    <form method="POST" name="myForm" action="http://localhost/finalviva-hdv2/RegisterFormdbTest.php" class="register-form" id="register-form" onsubmit="return check()">
+                    <form method="POST" name="myForm" action="http://localhost/finalviva-hdv2/RegisterFormdbTest.php" class="register-form" id="register-form">
                         <div class="form-row">
                             <div class="form-group">
                                 <div class="form-input">
                                     <label for="last_name" class="required">Driver Licence No</label>
-                                    <input type="text" name="driverLicNo" pattern="^[a-zA-Z][0-9]{7}$" maxlength="8" id="driverLicNo" />
+                                    <input type="text" name="driverLicNo" maxlength="8" id="driverLicNo" />
                                 </div>
                                 <div class="form-input">
                                     <label for="email" class="required">Email</label>

@@ -259,10 +259,9 @@ include("php/header.php");
 								<div class="form-group">
 									<label class="col-sm-2 control-label" for="Password">Driver Licence No </label>
 									<div class="col-sm-10">
-										<input type="text" class="form-control" pattern="^[a-zA-Z][0-9]{7}$" id="driverLicNo" name="driverLicNo" />
+										<input type="text" class="form-control" maxlength="8" id="driverLicNo" name="driverLicNo" />
 									</div>
 								</div>
-
 
 								<div class="form-group">
 									<label class="col-sm-2 control-label" for="Confirm"> Vehicle No</label>
@@ -374,7 +373,7 @@ include("php/header.php");
 
 								driverLicNo: {
 									required: true,
-									maxlength: 10,
+									maxlength: 8,
 								},
 								vehicle_No: {
 									required: true,

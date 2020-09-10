@@ -68,7 +68,6 @@
       },
       driverLicNo: {
         required: true,
-        number: true,
       },
       nic: {
         required: true,
@@ -102,7 +101,6 @@
       },
       driverLicNo: {
         required: "Driver Licence field is required",
-        digits: "Only Acept Numbers",
       },
       address: {
         required: "Address field is required",
