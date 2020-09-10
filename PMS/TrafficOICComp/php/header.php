@@ -51,7 +51,7 @@
                     </li>
 
                     <li>
-                        <a href="logout.php"><i class="fa fa-power-off "></i>Logout</a>
+                        <a href="http://localhost/PMS"><i class="fa fa-power-off "></i>Logout</a>
                     </li>
 
 

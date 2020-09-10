@@ -122,7 +122,7 @@ include("php/header.php");
     <div id="page-inner">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="page-head-line">Officer Traffic
+                <h1 class="page-head-line">Officer 
                     <?php
                     echo (isset($_GET['action']) && @$_GET['action'] == "add" || @$_GET['action'] == "edit") ?
                         ' <a href="AddOfficer.php" class="btn btn-primary btn-sm pull-right">Back <i class="glyphicon glyphicon-arrow-right"></i></a>' : '<a href="AddOfficer.php?action=add" class="btn btn-primary btn-sm pull-right"><i class="glyphicon glyphicon-plus"></i> Add </a>';
@@ -361,7 +361,7 @@ include("php/header.php");
 
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    Manage Traffic Officer
+                    Manage Officer
                 </div>
                 <div class="panel-body">
                     <div class="table-sorting table-responsive">
@@ -371,7 +371,7 @@ include("php/header.php");
                                 <tr>
                                     <th>#</th>
                                     <th>Officer ID</th>
-                                    <th>Traffic OIC Name</th>
+                                    <th>Officer Name</th>
                                     <th>Police Station</th>
                                     <th>Action</th>
                                 </tr>

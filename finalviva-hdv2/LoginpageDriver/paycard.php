@@ -11,6 +11,9 @@ $fine_cate = $_SESSION["fine_cate"];
 $date = $_SESSION["date"];
 $price = $_SESSION["price"];
 $datepay =  date('Y-m-d');
+$email = $_SESSION["email"];
+$expire_date =  date('Y-m-d');
+$complain = $_SESSION["complain"];
 
 // $spot_id = $_POST['spot_id'];
 // $driverLicNo = $_POST['driverLicNo'];
@@ -36,6 +39,71 @@ if (!$resultup) {
     $data .= '<strong> Date Pay Fine : </strong>' . $datepay . '<br/>';
     $data .= '<strong> Date              : </strong>' . $date . '<br/>';
     $data .= '<strong> Price             : </strong>' . $price . '<br/>';
+    $data.='<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Example 1</title>
+    <link rel="stylesheet" href="add.css" media="all" />
+  </head>
+  <body>
+    <header class="clearfix">
+   
+      <h1>Payment Receipt</h1>
+      <div id="company" class="clearfix">
+      <div>Sri Lanka Police</div> 
+      <div>No:Olcott Mawatha,<br /> Colombo,Sri Lanka</div>
+      <div>(077) 519-0450</div>
+        <div><a href="mailto:company@example.com">company@example.com</a></div>
+      </div>
+      <div id="project">
+        <div><span><b>Driver Licence </span>' . $driverLicNo . '</div>
+        <div><span><b>Vehicle No <b></span>' . $vehicle_No . '</div>
+        <div><span><b>Email <b> </span>' . $email . '</div>
+        <div><span><b>Fine Date</b></span>' . $date . ' </div>
+       
+      </div>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th class="service">Offence</th>
+            <th class="desc">DESCRIPTION</th>
+           <th>PRICE</th>
+            <th></th>
+            <th>TOTAL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="service">' . $fine_cate . '</td>
+            <td class="desc">' . $complain . ' </td>
+            <td class="unit">' . $price . '</td>       
+             <td class="qty"></td>
+        
+            <td class="total">' . $price . '</td>
+          </tr>
+         
+         
+          <tr>
+            <td colspan="4" class="grand total">GRAND TOTAL</td>
+            <td class="grand total">' . $price . '</td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="notices">
+        <div>NOTICE:</div>
+        <div class="notice">Only vaild for 30 days.</div>
+      </div>
+    </main>
+    <footer>
+      Invoice was created on a computer and is valid without the signature and seal.
+    </footer>
+  </body>
+</html>';
+    
+    
     // Write some HTML code:
     $mpdf->WriteHTML($data);
 

@@ -64,7 +64,7 @@ if (isset($_GET['action']) && $_GET['action'] == "edit") {
 if (isset($_REQUEST['act']) && @$_REQUEST['act'] == "1") {
     $errormsg = "<div class='alert alert-success'><strong>Success!</strong> Traffic IOC Add successfully</div>";
 } else if (isset($_REQUEST['act']) && @$_REQUEST['act'] == "2") {
-    $errormsg = "<div class='alert alert-success'><strong>Success!</strong> Feed Back Respond successfully</div>";
+    $errormsg = "<div class='alert alert-success'><strong>Success!</strong> FeedBack Respond successfully</div>";
 } else if (isset($_REQUEST['act']) && @$_REQUEST['act'] == "3") {
     $errormsg = "<div class='alert alert-success'><strong>Success!</strong> Traffic IOC Delete successfully</div>";
 }
@@ -105,7 +105,7 @@ include("php/header.php");
     <div id="page-inner">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="page-head-line">Feed Back
+                <h1 class="page-head-line">FeedBack
 
                 </h1>
 
@@ -247,7 +247,7 @@ include("php/header.php");
 
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    Feed Back Driver
+                Driver FeedBack 
                 </div>
                 <div class="panel-body">
                     <div class="table-sorting table-responsive">

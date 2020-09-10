@@ -73,7 +73,7 @@ if (!$_SESSION['loggedin']) {
                         <a href="ViewFeedback.php"><i class="fa fa-usd "></i>View FeedBacks</a>
                     </li>
                     <li>
-                        <a href="fees.php"><i class="fa fa-usd "></i>Report Dashboard</a>
+                        <a href="fees.php"><i class="fa fa-usd "></i>Dashboard</a>
                     </li>
                     <li>
                         <a href="reportmain.php"><i class="fa fa-usd "></i>Report</a>
