@@ -136,7 +136,7 @@ include("php/header.php");
 <!-- /. WRAPPER  -->
 
 <div id="footer-sec">
-	Rainbow English Classes | Developed By : <a href="http://www.codexking.com/" target="_blank">Codexking.com</a>
+	Team Police | Developed By : <a href="" target="_blank">police.com</a>
 </div>
 
 

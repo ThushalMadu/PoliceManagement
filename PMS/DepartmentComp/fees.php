@@ -59,18 +59,6 @@ include("php/header.php");
       <div class="row">
 
         <div class="col-md-4">
-          <div class="main-box mb-pink">
-            <a href="piechart.php">
-              <i class="fa fa-users fa-5x"></i>
-              <h5>Fine Category Dashboard</h5>
-            </a>
-          </div>
-        </div>
-
-
-
-
-        <div class="col-md-4">
           <div class="main-box mb-dull">
             <a href="BranchReport.php">
               <i class="fa fa-usd fa-5x"></i>
