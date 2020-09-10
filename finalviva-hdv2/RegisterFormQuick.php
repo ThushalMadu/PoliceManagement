@@ -39,7 +39,7 @@
                             <div class="form-group">
                                 <div class="form-input">
                                     <label for="last_name" class="required">Driver Licence No</label>
-                                    <input type="number" name="driverLicNo" maxlength="10" id="driverLicNo" />
+                                    <input type="text" name="driverLicNo" pattern="^[a-zA-Z][0-9]{7}$" maxlength="8" id="driverLicNo" />
                                 </div>
                                 <div class="form-input">
                                     <label for="email" class="required">Email</label>
