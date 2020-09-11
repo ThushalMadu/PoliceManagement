@@ -57,6 +57,17 @@ include("php/header.php");
     <div id="page-inner">
 
       <div class="row">
+      <div class="col-md-4">
+          <div class="main-box mb-red">
+            <a href="breport.php">
+              <i class="fa fa-file-text fa-5x"></i>
+              <h5>Branch Report</h5>
+            </a>
+          </div>
+        </div>
+
+
+
 
 
         <div class="col-md-4">
@@ -67,6 +78,8 @@ include("php/header.php");
             </a>
           </div>
         </div>
+
+        
 
 
       </div>

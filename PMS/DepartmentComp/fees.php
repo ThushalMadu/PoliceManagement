@@ -60,7 +60,7 @@ include("php/header.php");
 
         <div class="col-md-4">
           <div class="main-box mb-dull">
-            <a href="BranchReport.php">
+            <a href="Branchdeshbord.php">
               <i class="fa fa-usd fa-5x"></i>
               <h5>Branch Dashboard</h5>
             </a>
@@ -70,7 +70,7 @@ include("php/header.php");
 
         <div class="col-md-4">
           <div class="main-box mb-red">
-            <a href="summeryReport.php">
+            <a href="summerydashboard.php">
               <i class="fa fa-file-text fa-5x"></i>
               <h5>Summery Dashboard</h5>
             </a>

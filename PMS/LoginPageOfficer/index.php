@@ -70,10 +70,10 @@ include("php/header.php");
                     </a>
                 </div>
             </div>
-            <div class="col-md-2" id="padding-top: 5px;
-padding-bottom: 5px;
-padding-left: 5px;
-padding-right: 5px;">
+            <div class="col-md-2" id="padding-top: 1px;
+padding-bottom: 1px;
+padding-left: 1px;
+padding-right: 1px;">
 
             </div>
 

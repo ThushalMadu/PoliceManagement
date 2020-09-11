@@ -87,11 +87,11 @@ if (!$_SESSION['loggedin']) {
 
 
     if (isset($_REQUEST['act']) && @$_REQUEST['act'] == "1") {
-        $errormsg = "<div class='alert alert-success'><strong>Success!</strong> Traffic IOC Add successfully</div>";
+        $errormsg = "<div class='alert alert-success'><strong>Success!</strong>Spot Fine Add successfully</div>";
     } else if (isset($_REQUEST['act']) && @$_REQUEST['act'] == "2") {
-        $errormsg = "<div class='alert alert-success'><strong>Success!</strong> Traffic IOC Edit successfully</div>";
+        $errormsg = "<div class='alert alert-success'><strong>Success!</strong>Spot Fine Edit successfully</div>";
     } else if (isset($_REQUEST['act']) && @$_REQUEST['act'] == "3") {
-        $errormsg = "<div class='alert alert-success'><strong>Success!</strong> Traffic IOC Delete successfully</div>";
+        $errormsg = "<div class='alert alert-success'><strong>Success!</strong>Spot Fine Delete successfully</div>";
     }
 }
 ?>
